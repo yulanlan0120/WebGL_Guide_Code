@@ -7,7 +7,7 @@ var VSHADER_SOURCE =
   '  gl_Position = u_ModelMatrix * a_Position;\n' +
   '}\n';
 
-// Fragment shader program
+// Fragment shader program片元着色器
 var FSHADER_SOURCE =
   'void main() {\n' +
   '  gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n' +
